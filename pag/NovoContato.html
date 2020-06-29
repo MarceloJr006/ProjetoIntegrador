@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bendito Boteco - Contato</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/rodapé.css">
+</head>
+
+<body id="bodyy">
+  <div class="lt-grid-container-2">
+    <div class="lt-Botoes-1">
+      <!--\/ Logo Bendito \/-->
+      <div class="lt-logo-1">
+        <div class="lt-foto20-1"><img src="../img/logo1.png" alt=""> </div>
+      </div>
+      <!--/\ Fim da logo do bendito /\-->
+
+      <!--\/ Botões \/-->
+      <div class="lt-b2"><a href="../index.html"><button type="button" class="btn btn-outline-warning">Início</button></a></div>
+      <div class="lt-b3"><a href="cardapio.html"><button type="button" class="btn btn-outline-warning">Cardápio</button></a></div>
+      <div class="lt-b4"><a href="Delivery.html"><button type="button" class="btn btn-outline-warning">Delivery</button></a></div>
+      <div class="lt-b5"><a href="#"><button type="button" class="btn btn-outline-warning">Contato</button></a></div>
+      <!--/\ Fim dos Botões /\-->
+
+      <!--\/ Logo das redes sociais \/-->
+
+      <!--/\ Fim das Logo das redes sociais \/-->
+    </div>
+    <div class="textoContato">
+      <p>Nossa Localização</p>
+    </div>
+
+    <div class="Localizacao">
+      <div class="H1">
+        <h1>Formulario de contato</h1>
+      </div>
+
+      <form id="formulario" novalidate>
+        <div class="nome">
+          <input type="text" id="nome" placeholder="Nome completo" />
+        </div>
+
+        <div class="email">
+          <input type="email" id="email" placeholder="E-mail de contato" />
+        </div>
+        <div class="assunto">
+          <select id="assunto">
+            <option value="">Selecione um assunto</option>
+            <option value="1">Sugestão</option>
+            <option value="2">Dúvida</option>
+            <option value="3">Erro</option>
+            <option value="4">Outros</option>
+          </select>
+        </div>
+ 
+        <div class="AreaDeTexto">
+          <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui"></textarea>
+        </div>
+        <div>
+          <input type="checkbox" id="aceito" />
+          <label for="aceito">Aceito os termos de uso</label>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <p id="resposta"></p>
+      </form>
+    </div>
+    <div class="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14858.638983629828!2d-48.5087777!3d-21.4032981!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa67f302b57e642e!2sBendito%20Boteco!5e0!3m2!1spt-PT!2sbr!4v1593007521508!5m2!1spt-PT!2sbr" width="600" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+    
+
+
+    <!--\/ Rodapé \/-->
+    <div class="Rodape-4">
+      <footer id="myFooter">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <h2 class="logo"><img src="../img/logo1.png" alt="" height="150px" width="150px"></a></h2>
+            </div>
+            <div class="col-sm-2">
+              <h5>Inicio</h5>
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="cardapio.html">Cardapio</a></li>
+                <li><a href="Delivery.html">Delivey</a></li>
+                <li><a href="#">Contatos</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-sm-2">
+              <h5>Contato</h5>
+              <ul>
+
+                <li>Telefones<Br>+55 16 98199-0013<br>+55 16 98124-2856<br>+55 16 98260-0333</a></li>
+
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <h5>Redes sociais</h5>
+              <div class="social-networks">
+
+                <a href="https://www.facebook.com/benditobotecotq/" class="facebook" target="_blank"><img
+                    src="../img/redesocial/FacebookLogo.svg" alt="LogoFacebook" ><i
+                    class="fa fa-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+5516981990013" class="whatsapp" target="_blank"><img
+                    src="../img/redesocial/WhatsApp.svg" alt="LogoWhatsapp" ><i
+                    class="fa fa-whatsapp"></i></a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>© 2020 Copyright - Marcelo Junior, Matheus Araujo, Vínicius Langhi</p>
+        </div>
+      </footer>
+      <!--Fim do rodapé \/-->
+    </div>
+  </div>
+
+  
+  <!--Fim do rodapé \/-->
+  <script src="../js/formulario-contato.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

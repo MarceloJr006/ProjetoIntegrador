@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1005px) {
+    .lt-grid-container-1 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(41, 0.5fr);
+        gap: 1px 1px;
+    }
+    
+    .lt-Botões-1 {
+        background-color: gold;
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 1px 1px;
+        grid-area: 1 / 1 / 1 / 30;
+        height: 120px;
+        
+    }
+
+    .lt-b2 { 
+        grid-area: 1 / 5 / 1 / 5; 
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+      
+    .lt-b3 {
+         grid-area: 1 / 5 / 1 / 5; 
+        margin-left: 90px;
+        margin-top: 30px;
+        }
+      
+    .lt-b4 { 
+        grid-area: 2 / 5 / 2 / 5; 
+        margin-left: 90px;
+        margin-top: -30px;
+    }
+      
+    .lt-b5 { 
+        grid-area: 2 / 5 / 2 / 5; 
+        margin-top: -30px;
+        
+    }
+
+
+
+
+    .Area1 { 
+        grid-area: 3 / 2 / 6 / 2; 
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .textoCardapio{
+        grid-area: 2 / 1 / 4 / 10;
+        text-align: center;
+        background-color: whitesmoke;
+        margin-top: -10px;
+        margin-bottom: 14%;
+        width: 1200px;
+    }
+    
+    .textoCardapio p{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    
+    .subirp1{
+        margin-top: 107px;
+    }
+    
+    .Area2 { 
+        grid-area: 4 / 2 / 7 / 2; 
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .subirp2{
+        margin-top: 37px;
+    }
+    
+    
+    .Area3 { 
+        grid-area: 5 / 2 / 8 / 2; 
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 580px) {
+
+
+    .textoCardapio{
+        grid-area: 1 / 1 / 1 / 10;
+        text-align: center;
+        background-color: whitesmoke;
+        margin-top: 200px;
+        width: 1200px;
+    }
+    
+    .textoCardapio p{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    
+
+    .Area1 { 
+        grid-area: 3 / 2 / 5 / 2; 
+        text-align: center;
+        margin-top: 10px;
+    
+    }
+
+
+
+
+
+    
+}

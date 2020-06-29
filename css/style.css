@@ -1,0 +1,770 @@
+#bodyy{
+    background-color: rgb(233, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Grid Cabeça index*/
+.lt-grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 1px 1px;
+  }
+
+/* Fim da grid cabeça*/
+
+/* botões de página*/
+
+.lt-Botoes {
+    background-color: gold;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1px 1px;
+    grid-area: 1 / 1 / 1 / 11;
+    height: 120px;
+    width: 100%;
+}
+  
+.NomeEvento{
+    grid-area: 2 / 4 / 2 / 4;
+    margin-left: 130px;
+}
+.NomeEvento h3{
+    margin-top: 40px;
+}
+  
+.lt-b2 { 
+    grid-area: 2 / 4 / 3 / 4; 
+    
+}
+  
+.lt-b3 { grid-area: 2 / 5 / 3 / 5; }
+  
+.lt-b4 { grid-area: 2 / 6 / 3 / 6; }
+  
+.lt-b5 { grid-area: 2 / 7 / 3 / 7; }
+
+.lt-Botoes button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-bottom: 30px;
+    width: 90px;
+}
+
+.lt-Botoes a:hover button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+/* Fim do botões de página*/
+
+
+
+
+/* Começo do carrosel*/
+
+.lt-Carrosel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-area: 2 / 2 / 4 / 5;
+}
+ 
+.lt-carrosel { 
+      grid-area: 2 / 2 / 8 / 12;
+      margin-left: 150px;
+      margin-right: 100px;
+      height: 700px;
+      width: 800px;
+      margin-top: -50px;
+}
+/* Fim do carrosel*/
+
+/* Caixa do Bendito logo*/
+
+.lt-logo { grid-area: 1 / 2 / 3 / 3;
+
+}
+
+/* Fim da caixa Bendito logo*/
+
+
+/* Foto do Bendito logo*/
+
+.lt-foto20 { grid-area: 1 / 4 / 2 / 4;
+    margin-top: 30px;
+}
+
+/* Fim da foto do bendito logo*/
+
+
+/* Caixa de Links de rede social */
+.lt-social { grid-area: 2 / 9 / 3 / 13; }
+/* Fim da caixa de Links de rede social */
+
+
+
+/* Fotos dos Alimentos*/
+
+.NomeEvento{
+    grid-area: 2 / 4 / 2 / 8;
+    margin-top: -200px;
+}
+
+
+.NomePromocoes{
+    grid-area: 4 / 4 / 4 / 8;
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+
+.are1 { 
+    grid-area: 5 / 4 / 5 / 4; 
+    text-align: center;
+}
+
+.are1 img{
+    height: 230px;
+    width: 290px;
+}
+
+
+.are2 { 
+    grid-area: 5 / 5 / 5 / 9; 
+    text-align: center;
+}
+
+.are2 img{
+    height: 230px;
+    width: 290px;
+}
+
+.are3 { 
+    grid-area: 6 / 5 / 6 / 4; 
+    text-align: center;
+    margin-top: 25px;
+}
+
+.are3 img{
+    height: 230px;
+    width: 290px;
+}
+
+.are4 { 
+    grid-area: 6 / 5 / 6 / 9; 
+    text-align: center;
+    margin-top: 25px;
+}
+.are4 img{
+    height: 230px;
+    width: 290px;
+}
+
+
+/* Fim das fotos dos alimentos*/
+
+
+
+/*-------Página Contato---------*/
+
+
+
+
+/*---página de delivery ---*/
+
+.lt-grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(36, 0.5fr);
+    gap: 1px 1px;
+}
+
+.lt-Botoes-1 {
+    background-color: gold;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1px 1px;
+    grid-area: 1 / 1 / 1 / 11;
+    height: 120px;
+}
+
+.lt-logo-1 { 
+    grid-area: 1 / 2 / 3 / 3;
+    
+}
+
+.lt-foto20-1 {
+    grid-area: 1 / 4 / 2 / 4;
+    margin-bottom: 10px;
+}
+
+.lt-foto20-1 img{
+    height: 100px;
+    width: 100px;
+}
+
+.lt-Botoes-1 button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-bottom: 30px;
+    width: 90px;
+}
+
+.lt-Botoes-1 a:hover button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.Rodape-1 {
+    grid-area: 36 / 1 / 39 / 11;
+    margin-top: 10px;
+    
+}
+
+.textoCardapio{
+    grid-area: 2 / 1 / 4 / 11;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: -10px;
+    margin-bottom: 14%;
+}
+
+.Area1 { 
+    grid-area: 3 / 2 / 6 / 4; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.textoCardapio p{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.subirp1{
+    margin-top: 107px;
+}
+
+.Area2 { 
+    grid-area: 3 / 5 / 6 / 7; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.subirp2{
+    margin-top: 37px;
+}
+
+
+.Area3 { 
+    grid-area: 3 / 8 / 6 / 10; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.subirp3{
+    margin-top: 45px;
+}
+
+.Area4 {
+    grid-area: 6 / 2 / 9 / 4; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.subirp4{
+    margin-top: 107px;
+}
+
+.Area5 {
+    grid-area: 6 / 5 / 9 / 7; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Area5 h4 {
+    margin-top: 70px;
+    font-size: 16px
+
+}
+
+
+.Area6 {
+    grid-area: 6 / 8 / 9 / 10; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+
+.Area7 {
+    grid-area: 9 / 2 / 12 / 4; 
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.Area8 {
+    grid-area: 9 / 5 / 12 / 7; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Area9 {
+    grid-area: 9 / 8 / 12 / 10; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Area9 h4 {
+    margin-top: 70px;
+    font-size: 16px
+}
+
+.Porcoes{
+    grid-area:  12 / 1 / 13 / 11; 
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+
+.Porcoes p{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+
+
+.Area13 {
+    grid-area: 13 / 2 / 16 / 4; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Area13 h4{
+    margin-top: 70px;
+    font-size: 16px
+}
+
+.Area14 {
+    grid-area: 13 / 5 / 16 / 7; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Area14 h4{
+    margin-top: 70px;
+    font-size: 16px
+}
+
+.Area15 {
+    grid-area: 13 / 8 / 16 / 10; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Area15 h4{
+    margin-top: 50px;
+    font-size: 16px
+}
+
+.Area16 {
+    grid-area: 16 / 2 / 19 / 4; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Area16 h4{
+    margin-top: 70px;
+    font-size: 16px
+}
+
+.Area17 {
+    grid-area: 16 / 5 / 19 / 7; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Area17 h4{
+    margin-top: 70px;
+    font-size: 16px
+}
+
+.Area18 {
+    grid-area: 16 / 8 / 19 / 10; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Drinks {
+    grid-area: 19 / 1 / 20 / 11; 
+    background-color: whitesmoke;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Drinks p{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.AreaDrinks1 {
+    grid-area: 20 / 2 / 23 / 4; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.AreaDrinks2 {
+    grid-area: 20 / 5 / 23 / 7; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.AreaDrinks3 {
+    grid-area: 20 / 8 / 23 / 10; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.AreaDrinks4 {
+    grid-area: 23 / 2 / 26 / 4; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.AreaDrinks5 {
+    grid-area: 23 / 5 / 26 / 7; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.AreaDrinks6 {
+    grid-area: 23 / 8 / 26 / 10; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.AreaDrinks7 {
+    grid-area: 26 / 2 / 29 / 4; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.AreaDrinks8 {
+    grid-area: 26 / 5 / 29 / 7; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.AreaDrinks8 h4{
+    margin-top: 75px;
+    font-size: 16px
+}
+
+.AreaDrinks9 {
+    grid-area: 26 / 8 / 29 / 10; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.AreaDrinks9 h4{
+    margin-top: 75px;
+    font-size: 16px
+}
+
+.FavoritoDaGalera {
+    grid-area: 29 / 1 / 30 / 11; 
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.FavoritoDaGalera p{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.OsMaisPedidos1 {
+    grid-area: 30 / 2 / 33 / 4; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.OsMaisPedidos1 h4 {
+    margin-top: -22px;
+    font-size: 16px
+}
+
+.OsMaisPedidos2 {
+    grid-area: 30 / 5  / 33 / 7; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.OsMaisPedidos2 h6 {
+    margin-top: 62px;
+}
+
+.OsMaisPedidos3 {
+    grid-area: 30 / 8 / 33 / 10; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.OsMaisPedidos3 h6{
+    margin-top: 60px;
+}
+
+.OsMaisPedidos4 {
+    grid-area: 33 / 2 / 36 / 4; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.OsMaisPedidos4 h6{
+    margin-top: 55px;
+}
+.OsMaisPedidos5 {
+    grid-area: 33 / 5  / 36 / 7; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.OsMaisPedidos5 h4{
+    margin-top: 75px;
+    font-size: 16px
+}
+
+.OsMaisPedidos6 {
+    grid-area: 33 / 8 / 36 / 10; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+.OsMaisPedidos6 h6{
+    margin-top: 55px
+}
+
+.lt-grid-container-1 h6{
+    margin-top: 50px;
+}
+
+
+.Puxar{
+    color: white;
+    
+}
+
+.Puxar button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-bottom: 30px;
+    width: 151px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5% 5% 5% 5%;
+}
+
+/*Fim da página Cardápio*/
+
+
+
+
+
+
+/*contato*/
+.lt-grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, 0.5fr);
+    gap: 1px 1px;
+}
+
+
+.textoContato{
+    grid-area: 2 / 1 / 3 / 11;
+    text-align: center;
+    background-color: whitesmoke;
+    
+    margin-bottom: 20px;
+}
+
+.textoContato p{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.nome { grid-area: 2 / 1 / 3 / 4; }
+
+.registro { grid-area: 3 / 1 / 3 / 2; }
+
+.email { grid-area: 4 / 1 / 4 / 2; }
+
+
+
+
+.Localizacao { 
+    grid-area: 3 / 6 / 4 / 10; 
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+    border: 0px solid black;
+    background-color: whitesmoke;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+.mapa { 
+    grid-area: 3 / 2 / 4 / 2; 
+    padding-left: 10px;
+    
+}
+
+.Rodape-2 {
+    grid-area: 6 / 1 / 10 / 11;
+    margin-top: 10px;
+}
+
+.Rodape-4 {
+    grid-area: 4 / 1 / 8 / 11;
+    margin-top: 10px;
+}
+
+.Rodape-incial{
+    grid-area: 7 / 1 / 8 / 11;
+    margin-top: 10px;
+}
+
+/* Delivey*/ 
+
+.lt-grid-container-3 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 0.5fr);
+    gap: 1px 1px;
+}
+
+.Campo1 {
+    grid-area: 3 / 2 / 4 / 3; 
+    background-color: whitesmoke;
+    text-align: center;
+    border: 0px solid whitesmoke;
+    border-radius: 10%;
+}
+
+.campo2 { 
+    grid-area: 3 / 4 / 4 / 5; 
+    background-color: whitesmoke;
+    text-align: center;
+    border: 0px solid whitesmoke;
+    border-radius: 10%;
+}
+
+.Campo3 { 
+    grid-area: 3 / 6 / 4 / 7; 
+    background-color: whitesmoke;
+    text-align: center;
+    border: 0px solid whitesmoke;
+    border-radius: 10%;
+}
+
+.Campo4 {
+    grid-area: 3 / 8 / 4 / 9; 
+    background-color: whitesmoke;
+    text-align: center;
+    border: 0px solid whitesmoke;
+    border-radius: 10%;
+}
+
+.Campo5 { 
+    grid-area: 4 / 3 / 5 / 4; 
+    background-color: whitesmoke;
+    text-align: center;
+    border: 0px solid whitesmoke;
+    border-radius: 10%;
+}
+
+.Campo6 { 
+    grid-area: 4 / 5 / 5 / 6; 
+    background-color: whitesmoke;
+    text-align: center;
+    border: 0px solid whitesmoke;
+    border-radius: 10%;
+}
+
+.Campo7 { 
+    grid-area: 4 / 7 / 5 / 8; 
+    background-color: whitesmoke;
+    text-align: center;
+    border: 0px solid whitesmoke;
+    border-radius: 10%;
+}
+
+.Campo8{
+    grid-area: 5 / 5 / 5 / 5;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.Campo8 button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.Campo8 a:hover button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+/*  Inicio do Contato */
+
+
+input[type=text] {
+    background-color: rgb(233, 233, 233); 
+    border-radius:4px;
+    box-shadow: 1px 1px 2px #333333; 
+    border:1px solid #000000;
+    width:200px
+}
+
+input[type=email] {
+    background-color: rgb(233, 233, 233); 
+    border-radius:4px;
+    box-shadow: 1px 1px 2px #333333; 
+    border:1px solid #000000;
+    width:200px
+}
+
+.assunto {
+    background-color: rgb(233, 233, 233); 
+    border-radius:4px;
+    box-shadow: 1px 1px 2px #333333; 
+    border:1px solid #000000;
+    width:200px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.assunto select{
+    background-color: rgb(233, 233, 233);
+}
+
+.AreaDeTexto {
+    background-color: rgb(233, 233, 233); 
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(233, 233, 233); 
+    border: 1px solid #000000;
+    width: 200px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.AreaDeTexto textarea{
+    background-color: rgb(233, 233, 233); 
+}
